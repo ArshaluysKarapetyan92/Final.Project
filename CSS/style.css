@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container-boxx{
+
+} */
+ section{
+    margin-bottom: 128px;
+ }
+.main-section{
+    width:100%;
+	background-image: url('../img/man-in-black-3772622.png');
+	background-size: 100%;
+}
+
+.container-boxx{
+    padding-top: 128px;
+    padding-bottom: 156px;
+}
+
+.container-boxx > p {
+    color: var(--Light, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container-boxx-p > span {
+    color: var(--Light, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+h1 {
+    width: 803px;
+    color: var(--Light, #FFF);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* Display */
+    font-family: Sen;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    margin-top: 24px;
+}
+
+.container_boxx_span {
+    color: var(--Yellow, #FFD050);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.container-boxx>.p-info {
+    width: 599px;
+    color: var(--Light, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+.read_more{
+margin-top: 48px;
+}
+
+.container-boxx p {
+    margin-top: 24px;
+}
+
+.main-section2-container-box{
+    display: flex;
+}
+
+.main-section2-container-box-left{
+    width: 733px;
+    margin-top: 128px;
+}
+
+.main-section2-container-box-left > h2 {
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 64px;
+}
+
+.main-section2-container-box-left> div >img {
+    width: 669px;
+    height: 352px;
+    flex-shrink: 0;
+}
+
+.main-section2-container-box-left > h4 {
+    color: var(--Dark-Grey, #4C4C4C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.main-section2-container-box-left>h3 {
+    width: 669px;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.main-section2-container-box-left > p{
+    width: 551px;
+    color: var(--Medium-grey, #6D6E76);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.main-section2-container-box-rigth{
+ margin-top: 128px;   
+}
+
+.main-section2-container-box-rigth-post {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.main-section2-container-box-rigth-post > h3{
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    letter-spacing: -2px;
+}
+
+.main-section2-container-box-rigth-post>a {
+    color: var(--Purple, #592EA9);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main-section2-container-box-rigth-info>p {
+    color: var(--Dark-Grey, #4C4C4C);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.main-section2-container-box-rigth-info>h3 {
+    width: 369.181px;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.main-section2-container-box-rigth-info:hover{
+    background-color: #FBF6FA;
+}
+
+.main-section3-container-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: var(--Lavender, #F4F0F8);
+    padding: 96px 108px 96px 80px;
+}
+
+.main-section3-container-box-top{
+    display: flex;
+    justify-content: end;
+}
+
+.main-section3-container-box-top-yellow {
+    width: 843px;
+    height: 23px;
+    background-color: #FFD050;
+}
+
+.main-section3-container-box-top-blue {
+    width: 282px;
+    height: 23px;
+    background-color: var(--Purple, #592EA9);
+}
+
+
+.main-section3-container-box-left{
+    width: 515px;
+}
+
+.main-section3-container-box-left > h4 {
+    color: var(--Black, #232536);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.main-section3-container-box-left>h2 {
+    width: 494px;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    margin-top: 24px;
+    padding-right: 9px
+}
+
+.main-section3-container-box-left>p {
+    width: 515px;
+    height: 56px;
+    flex-shrink: 0;
+    color: var(--Medium-grey, #6D6E76);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+.main-section3-container-box-left > a{
+    width: 108px;
+    color: var(--Purple, #592EA9);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+    margin-top: 16px;
+}
+
+.main-section3-container-box-rigth{
+    width: 516px;
+}
+
+.main-section3-container-box-rigth > h4{
+    color: var(--Black, #232536);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    padding-right: 9px;
+}
+
+.main-section3-container-box-rigth > h2 {
+    width: 481px;
+    color: var(--Black, #232536);
+    font-family: Sen;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.main-section3-container-box-rigth>h4 {
+    color: var(--Black, #232536);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; 
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.main-section3-container-box-rigth > p{
+    flex-shrink: 0;
+    color: var(--Medium-grey, #6D6E76);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
